@@ -1,0 +1,19 @@
+﻿  endTermApplication.cpp
+C:\opencv\build\include\opencv2\calib3d.hpp(1,1): warning C4819: ファイルは、現在のコード ページ (932) で表示できない文字を含んでいます。データの損失を防ぐために、ファイルを Unicode 形式で保存してください。
+C:\Users\ToyodaKota\source\repos\programmingC\endTermApplication\endTermApplication\endTermApplication.cpp(136,47): warning C4244: '引数': 'float' から '_Tp' への変換です。データが失われる可能性があります。
+          with
+          [
+              _Tp=int
+          ]
+C:\Users\ToyodaKota\source\repos\programmingC\endTermApplication\endTermApplication\endTermApplication.cpp(136,44): warning C4244: '引数': 'float' から '_Tp' への変換です。データが失われる可能性があります。
+          with
+          [
+              _Tp=int
+          ]
+  images.cpp
+C:\opencv\build\include\opencv2\calib3d.hpp(1,1): warning C4819: ファイルは、現在のコード ページ (932) で表示できない文字を含んでいます。データの損失を防ぐために、ファイルを Unicode 形式で保存してください。
+  setting.cpp
+C:\Users\ToyodaKota\source\repos\programmingC\endTermApplication\endTermApplication\setting.cpp(29,72): warning C4474: 'fprintf': 書式文字列に渡された引数の数が多すぎます
+C:\Users\ToyodaKota\source\repos\programmingC\endTermApplication\endTermApplication\setting.cpp(29,72): message : プレースホルダーとそのパラメーターには 2 の可変個引数が必要ですが、3 が指定されています。
+  コードを生成中...
+  endTermApplication.vcxproj -> C:\Users\ToyodaKota\source\repos\programmingC\endTermApplication\x64\Debug\endTermApplication.exe

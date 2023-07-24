@@ -1,0 +1,25 @@
+﻿  endTermApplication.cpp
+C:\opencv\build\include\opencv2\calib3d.hpp(1,1): warning C4819: ファイルは、現在のコード ページ (932) で表示できない文字を含んでいます。データの損失を防ぐために、ファイルを Unicode 形式で保存してください。
+C:\Users\ToyodaKota\source\repos\programmingC\endTermApplication\endTermApplication\endTermApplication.cpp(136,47): warning C4244: '引数': 'float' から '_Tp' への変換です。データが失われる可能性があります。
+          with
+          [
+              _Tp=int
+          ]
+C:\Users\ToyodaKota\source\repos\programmingC\endTermApplication\endTermApplication\endTermApplication.cpp(136,44): warning C4244: '引数': 'float' から '_Tp' への変換です。データが失われる可能性があります。
+          with
+          [
+              _Tp=int
+          ]
+  images.cpp
+C:\opencv\build\include\opencv2\calib3d.hpp(1,1): warning C4819: ファイルは、現在のコード ページ (932) で表示できない文字を含んでいます。データの損失を防ぐために、ファイルを Unicode 形式で保存してください。
+  setting.cpp
+C:\Users\ToyodaKota\source\repos\programmingC\endTermApplication\endTermApplication\setting.cpp(29,72): warning C4474: 'fprintf': 書式文字列に渡された引数の数が多すぎます
+C:\Users\ToyodaKota\source\repos\programmingC\endTermApplication\endTermApplication\setting.cpp(29,72): message : プレースホルダーとそのパラメーターには 2 の可変個引数が必要ですが、3 が指定されています。
+images.obj : error LNK2001: 外部シンボル "void __cdecl cv::imshow(class std::basic_string<char,struct std::char_traits<char>,class std::allocator<char> > const &,class cv::_InputArray const &)" (?imshow@cv@@YAXAEBV?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@std@@AEBV_InputArray@1@@Z) は未解決です
+images.obj : error LNK2001: 外部シンボル "bool __cdecl cv::imwrite(class std::basic_string<char,struct std::char_traits<char>,class std::allocator<char> > const &,class cv::_InputArray const &,class std::vector<int,class std::allocator<int> > const &)" (?imwrite@cv@@YA_NAEBV?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@std@@AEBV_InputArray@1@AEBV?$vector@HV?$allocator@H@std@@@3@@Z) は未解決です
+images.obj : error LNK2001: 外部シンボル "void __cdecl cv::warpPerspective(class cv::_InputArray const &,class cv::_OutputArray const &,class cv::_InputArray const &,class cv::Size_<int>,int,int,class cv::Scalar_<double> const &)" (?warpPerspective@cv@@YAXAEBV_InputArray@1@AEBV_OutputArray@1@0V?$Size_@H@1@HHAEBV?$Scalar_@N@1@@Z) は未解決です
+images.obj : error LNK2001: 外部シンボル "void __cdecl cv::putText(class cv::_InputOutputArray const &,class std::basic_string<char,struct std::char_traits<char>,class std::allocator<char> > const &,class cv::Point_<int>,int,double,class cv::Scalar_<double>,int,int,bool)" (?putText@cv@@YAXAEBV_InputOutputArray@1@AEBV?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@std@@V?$Point_@H@1@HNV?$Scalar_@N@1@HH_N@Z) は未解決です
+images.obj : error LNK2001: 外部シンボル "void __cdecl cv::rectangle(class cv::_InputOutputArray const &,class cv::Point_<int>,class cv::Point_<int>,class cv::Scalar_<double> const &,int,int,int)" (?rectangle@cv@@YAXAEBV_InputOutputArray@1@V?$Point_@H@1@1AEBV?$Scalar_@N@1@HHH@Z) は未解決です
+images.obj : error LNK2001: 外部シンボル "public: void __cdecl cv::CascadeClassifier::detectMultiScale(class cv::_InputArray const &,class std::vector<class cv::Rect_<int>,class std::allocator<class cv::Rect_<int> > > &,double,int,int,class cv::Size_<int>,class cv::Size_<int>)" (?detectMultiScale@CascadeClassifier@cv@@QEAAXAEBV_InputArray@2@AEAV?$vector@V?$Rect_@H@cv@@V?$allocator@V?$Rect_@H@cv@@@std@@@std@@NHHV?$Size_@H@2@2@Z) は未解決です
+images.obj : error LNK2001: 外部シンボル "void __cdecl cv::resize(class cv::_InputArray const &,class cv::_OutputArray const &,class cv::Size_<int>,double,double,int)" (?resize@cv@@YAXAEBV_InputArray@1@AEBV_OutputArray@1@V?$Size_@H@1@NNH@Z) は未解決です
+C:\Users\ToyodaKota\source\repos\programmingC\endTermApplication\x64\Release\endTermApplication.exe : fatal error LNK1120: 7 件の未解決の外部参照
